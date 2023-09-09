@@ -1,0 +1,35 @@
+name: flutter_dio_cache_intercepter_example
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.5.0
+  logger: ^1.1.0
+  dio_cache_interceptor: ^3.4.2
+  dio_cache_interceptor_hive_store: ^3.2.1
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  build_runner: ^2.1.11
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.2.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
